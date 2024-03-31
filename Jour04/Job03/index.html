@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri de Pokémon</title>
+</head>
+<body>
+
+  <h1>Tri de Pokémon</h1>
+
+  <form id="filterForm">
+    <label for="id">ID:</label>
+    <input type="text" id="id" name="id"><br><br>
+
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" name="nom"><br><br>
+
+    <label for="type">Type:</label>
+    <select id="type" name="type">
+      <option value="tous">Tous</option>
+      <option value="Grass">Plante</option>
+      <option value="Fire">Feu</option>
+      <option value="Water">Eau</option>
+      <!-- Ajoutez d'autres types de Pokémon ici -->
+    </select><br><br>
+
+    <input type="button" value="Filtrer" id="filtrerBtn">
+  </form>
+
+  <div id="resultats"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

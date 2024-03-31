@@ -1,0 +1,25 @@
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  #restartButton {
+    display: none;
+    margin-top: 10px;
+  }
+  
